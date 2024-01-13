@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Kantor_WebAPI.props" />
+</Project>
