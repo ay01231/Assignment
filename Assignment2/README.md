@@ -6,8 +6,8 @@ Basis data ini mengelola informasi penjualan dan pemesanan untuk perusahaan yang
 
 Penggunaan:
 
-1. Import basis data 'bank.sql' ke dalam sistem manajemen basis data MySQL Anda.
-1. Gunakan perintah SQL untuk berinteraksi dengan basis data dan mengambil informasi yang Anda butuhkan.
+1. Import basis data 'bank.sql' ke dalam sistem manajemen database MySQL.
+2. Gunakan perintah SQL untuk berinteraksi dengan database dan mengambil informasi yang dibutuhkan.
 
 
 ## Struktur Basis Data:
