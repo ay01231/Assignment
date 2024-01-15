@@ -2,11 +2,11 @@
 
 ## Deskripsi
 
-Basis data ini mengelola informasi penjualan dan pemesanan untuk perusahaan yang menjual berbagai produk, termasuk mobil, motor, elektronik, furnitur, mainan, pakaian, dan perhiasan. Basis data ini mencakup tabel untuk lini produk, kantor, karyawan, pelanggan, pembayaran, pesanan, dan detail pesanan.
+Database ini mengelola informasi penjualan dan pemesanan untuk perusahaan yang menjual berbagai produk, termasuk mobil, motor, elektronik, furnitur, mainan, pakaian, dan perhiasan. Basis data ini mencakup tabel untuk lini produk, kantor, karyawan, pelanggan, pembayaran, pesanan, dan detail pesanan.
 
 Penggunaan:
 
-1. Import basis data 'bank.sql' ke dalam sistem manajemen database MySQL.
+1. Import database 'bank.sql' ke dalam sistem manajemen database MySQL.
 2. Gunakan perintah SQL untuk berinteraksi dengan database dan mengambil informasi yang dibutuhkan.
 
 
