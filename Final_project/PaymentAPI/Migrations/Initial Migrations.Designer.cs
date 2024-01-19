@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace PaymentApi.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("Initial Migrations")]
+    [Migration("20240115025550_Initial Migrations")]
     partial class InitialMigrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

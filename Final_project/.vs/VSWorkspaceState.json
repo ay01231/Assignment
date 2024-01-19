@@ -7,9 +7,8 @@
     "\\PaymentAPI\\Migrations",
     "\\PaymentAPI\\Models",
     "\\PaymentAPI\\PaymentAPI",
-    "\\PaymentAPI\\PaymentAPI\\Migrations",
-    "\\PaymentAPI\\Properties"
+    "\\PaymentAPI\\PaymentAPI\\Migrations"
   ],
-  "SelectedNode": "\\PaymentAPI\\Startup.cs",
+  "SelectedNode": "\\PaymentAPI\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }
