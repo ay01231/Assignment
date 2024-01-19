@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PaymentAPI",
+    "\\PaymentAPI\\Controllers",
+    "\\PaymentAPI\\Data",
+    "\\PaymentAPI\\Migrations",
+    "\\PaymentAPI\\Models",
+    "\\PaymentAPI\\Properties"
+  ],
+  "SelectedNode": "\\PaymentAPI\\Controllers\\PaymentController.cs",
+  "PreviewInSolutionExplorer": false
+}
