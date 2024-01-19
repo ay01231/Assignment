@@ -123,7 +123,7 @@
               <hashTree/>
               <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
                 <stringProp name="JSONPostProcessor.referenceNames">getPokemon</stringProp>
-                <stringProp name="JSONPostProcessor.jsonPathExprs">$.results[?(@.name == &apos;pikachu&apos;)]</stringProp>
+                <stringProp name="JSONPostProcessor.jsonPathExprs">$.results[?(@.name == &apos;bulbasaur&apos;)]</stringProp>
                 <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
               </JSONPostProcessor>
               <hashTree/>
@@ -168,7 +168,7 @@ def offset = vars.get(&quot;offset&quot;);
             <stringProp name="IfController.condition">${__groovy(vars.get(&quot;pokemonUrl&quot;) != &quot;&quot;)}</stringProp>
           </IfController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Pokemon Evolution Details" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Details Evolutions" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
@@ -232,9 +232,9 @@ def response = slurper.parseText(prev.getResponseDataAsString())
 try {
 	log.info(&quot;The Next Evolution of Pikachu is : &quot; + response.chain[&quot;evolves_to&quot;][0][&quot;evolves_to&quot;].species.name[0])
 } catch (Exception err) {
-	log.info(&quot;This pokemon doesn&apos;t have any evolution chain or it is already in max evolution&quot;)
+	log.info(&quot;This Pokemon is an evolutionary dead end&quot;)
 }
-log.info(&quot;Evolution Details : &quot; + vars.get(&quot;evolutionUrl&quot;))
+log.info(&quot;Details Evolutions : &quot; + vars.get(&quot;evolutionUrl&quot;))
 </stringProp>
                 </JSR223PostProcessor>
                 <hashTree/>
@@ -289,7 +289,7 @@ def jsonResponse = prev.getResponseDataAsString()
 def slurper = new JsonSlurper()
 def parsedJson = slurper.parseText(jsonResponse)
 def pokemonShapes = parsedJson.results.collect { it.name }
-log.info(&quot;Extracted Pokemon shapes : ${pokemonShapes}&quot;)
+log.info(&quot;Pokemon shapes : ${pokemonShapes}&quot;)
 vars.put(&quot;pokemonShapes&quot;, pokemonShapes.join(&quot;,&quot;))
 </stringProp>
             </JSR223PostProcessor>
@@ -337,7 +337,7 @@ def jsonResponse = prev.getResponseDataAsString()
 def slurper = new JsonSlurper()
 def parsedJson = slurper.parseText(jsonResponse)
 def shapePokemonList = parsedJson[&quot;pokemon_species&quot;].collect { it.name }
-vars.put(&quot;shapePokemonList&quot;, shapePokemonList.join(&quot;,&quot;))
+vars.put(&quot;PokemonShapeList&quot;, shapePokemonList.join(&quot;,&quot;))
 log.info(&quot;Extracted Pokemon list : &quot; + shapePokemonList)
 log.info(&quot;Shape url : &quot; + vars.get(&quot;pokemonShapeUrl&quot;))
 log.info(&quot;Shape id : &quot; + vars.get(&quot;shapeId&quot;))
