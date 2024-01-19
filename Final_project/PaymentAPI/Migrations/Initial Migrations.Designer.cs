@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace PaymentApi.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20240115025550_Initial Migrations")]
+    [Migration("Initial Migrations")]
     partial class InitialMigrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -17,7 +17,7 @@ namespace PaymentApi.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("Final_Project_1.Models.Payment", b =>
+            modelBuilder.Entity("PaymentAPI.Models.Payment", b =>
             {
                 b.Property<int>("PaymentDetailId")
                     .ValueGeneratedOnAdd()
