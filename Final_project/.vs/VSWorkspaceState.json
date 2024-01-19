@@ -6,8 +6,10 @@
     "\\PaymentAPI\\Data",
     "\\PaymentAPI\\Migrations",
     "\\PaymentAPI\\Models",
+    "\\PaymentAPI\\PaymentAPI",
+    "\\PaymentAPI\\PaymentAPI\\Migrations",
     "\\PaymentAPI\\Properties"
   ],
-  "SelectedNode": "\\PaymentAPI\\Controllers\\PaymentController.cs",
+  "SelectedNode": "\\PaymentAPI\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

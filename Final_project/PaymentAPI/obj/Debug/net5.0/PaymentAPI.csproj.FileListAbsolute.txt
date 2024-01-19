@@ -5,7 +5,6 @@ D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentAPI\obj\Debug\ne
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentAPI\obj\Debug\net5.0\PaymentAPI.csproj.CoreCompileInputs.cache
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentAPI\obj\Debug\net5.0\PaymentAPI.MvcApplicationPartsAssemblyInfo.cache
-D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\PaymentAPI.sourcelink.json
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\bin\Debug\net5.0\appsettings.Development.json
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\bin\Debug\net5.0\appsettings.json
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\bin\Debug\net5.0\PaymentAPI.exe
@@ -47,14 +46,10 @@ D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\bin\Debug\ne
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\PaymentAPI.RazorTargetAssemblyInfo.cache
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\scopedcss\bundle\PaymentAPI.styles.css
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.Manifest.cache
-D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.Pack.cache
-D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\staticwebassets\msbuild.PaymentAPI.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\staticwebassets\msbuild.build.PaymentAPI.props
-D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.PaymentAPI.props
-D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.PaymentAPI.props
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\PaymentAPI.csproj.CopyComplete
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\PaymentAPI.dll
-D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\refint\PaymentAPI.dll
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\PaymentAPI.pdb
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\PaymentAPI.genruntimeconfig.cache
 D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentApi\obj\Debug\net5.0\ref\PaymentAPI.dll
+D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentAPI\bin\Debug\net5.0\ref\PaymentAPI.dll
+D:\Ajeng Ayu Pranata\Specialization\coding\Final_project\PaymentAPI\obj\Debug\net5.0\staticwebassets\PaymentAPI.StaticWebAssets.xml
